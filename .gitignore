@@ -1,0 +1,23 @@
+Python
+
+pycache/*.py[cod]*$py.class*.so
+
+Virtual Environment
+
+venv/env/ENV/
+
+Environment Variables
+
+.env
+
+Database (Crucial: Prevents pushing local DB to GitHub/Back4App)
+
+db.sqlite3 db.sqlite3-journal
+
+macOS Specific
+
+.DS_Store .AppleDouble .LSOverride
+
+VS Code Specific
+
+.vscode/
