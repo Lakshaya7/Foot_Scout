@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.b4a.run', 'footscoutapi-zxf8f7y9.b4a.run', '*']
 
+CSRF_TRUSTED_ORIGINS = ['https://*.b4a.run', 'https://footscoutapi-txl5gv9m.b4a.run']
+
 
 # Application definition
 
